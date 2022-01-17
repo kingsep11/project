@@ -1,0 +1,568 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+    
+    	<meta name="keywords" content=" Supreme Wedding Card Collections, Choose from 1000 + Indian wedding card designs, Select and Buy Wedding Cards Online, Customized Indian Wedding Invitations, Unique Online store, Order and Buy wedding cards online Wedding cards from India, Indian Wedding Cards online store, Indian Wedding invitations, Marriage invitation card collections, Buy beautiful Wedding Cards Online, Invitations for Wedding, Wedding Invitation Cards made in India, Buy wedding cards and Buy wedding card sample online .Buy online and pay online, wedding cards shipped to USA, UK, Dubai, Australia  Hindu wedding cards, Muslim wedding cards, Christian wedding cards, Special wedding cards, Sikh wedding cards, Hindu wedding invitations,  Muslim wedding invitations, Christian wedding invitations,  multi-faith wedding invitations, interfaith cards, non-religious cards, designer wedding Cards, Marriage cards, shaadi cards, wedding cards designs wedding invitation cards, unique Indian invitations, Exclusive wedding cards, unique wedding invitation, exclusive invitation cards, unique invitations, baby shower invitations, bachelorette party invitations, birthday invitations, anniversary cards, wedding cards India, Hindu cards, Muslim cards, Islamic cards, Islamic wedding cards, Christian cards, Punjabi cards, scroll wedding cards, scroll wedding invitations, scroll cards, wedding invitation samples, handmade paper wedding cards, designer wedding cards India" />
+    	<meta name="description" content="Buy Indian wedding cards Online for wedding Invitations from Online store in India, USA at low prices. Buy Wedding cards and Marriage invitation card at lowest printing and shipping charges. Large collection of Indian Wedding Cards| Custom Designing; Printing | 24x7 support | Over 100,000+ Happy customers | Buy wedding card sample online" />
+    
+    
+        <link rel="stylesheet" type="text/css" href="lib/bootstrap-3.3.6-dist/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="lib/bootstrap-3.3.6-dist/css/bootstrap-theme.css">
+        <link rel="stylesheet" type="text/css" href="lib/bootstrap-3.3.6-dist/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" type="text/css" href="lib/bootstrap-3.3.6-dist/css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="animate.css">
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+        <link href="https://fonts.googleapis.com/css?family=Playball" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+        <script type="text/javascript" src="lib/jquery-2.0.0.min.js"></script>
+		<script type="text/javascript" data-main="lib/config" src="lib/require.js"></script>
+
+
+        <title>Supreme Wedding Cards.  Largest collections of  Indian wedding cards . Choose from 1000+ Exclusive Indian wedding card designs | Select and Buy Wedding cards online | Customized Indian Wedding Invitations | Unique wedding cards online store | Hindu Wedding Cards | Muslim Wedding Cards | Christian Wedding Cards |Special Wedding Cards | Order and Buy wedding cards and wedding card samples online</title>
+        
+    </head>
+    <body ng-app="myApp">
+        <div id="wedding-cards-home" ng-controller="HomeController">
+            <div class="header">
+                <div class='header-subcontainer'>
+                    <!--                    <div class='drop-down-container'>
+                                            
+                                            
+                                          
+                                            
+                                              <div class="dropdown">
+                                                <button class="dropbtn">En</button>
+                                                <div class="dropdown-content">
+                                                    <a href="#">Fr</a>
+                                                    <a href="#">Es</a>
+                                                    <a href="#">Tn</a>
+                                                </div>
+                                            </div>
+                                            
+                                            
+                                              
+                                            <div class="dropdown1">
+                                                <button class="dropbtn1">$</button>
+                                                <div class="dropdown-content1">
+                                                    <a href="#">$</a>
+                                                    <a href="#">$</a>
+                                                    <a href="#">$</a>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="cart-number-container">
+                                                <span class="cart-icon"></span>
+                                                <span class="cart-value" ng-bind="'My Cart: '+cartItems"></span>
+                                            </div>
+                                            
+                                            
+                                        </div>
+                                        
+                                        <div class='location-container'>
+                                            <span class="map-image"></span>
+                                        </div>-->
+                    <div class='search-container'>
+                        <div class='textbox-container'>
+                            <input type='text' class='search-textbox' placeholder='Search here...'/>
+                            <span class='button-container'><button class='search-btn'>SEARCH</button></span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="content-container">
+                <div class="top-section">
+                    <div class="logo-container"></div>
+                    <div class='header-contact-container'>
+                        <div class='header-contact-types whatsapp-cont'>
+                            <div class='icon watsapp'></div>
+                            <div class='icon-value watsapp-number'>+91 98410 05934</div>
+                        </div>
+                        <div class='header-contact-types gmail-cont'>
+                            <div class='icon gmail'></div>
+                            <div class='icon-value gmail-id'>sales@SupremeCards.in</div>
+                        </div>
+                        <div class='header-contact-types map-cont'>
+                            <div class='icon map-image'></div>
+                            <div class='icon-value map-address'>16 Anderson Street, Parrys, Chennai</div>
+                        </div>
+                    </div>
+                    <div class="menu-container">
+                        <ul>
+                        	<li class="menu-item" type="home" id="home">Home</li>
+							<li class="menu-item" type="hc" id="menu_hc">Hindu Cards</li>
+                            <li class="menu-item" type="sc" id="menu_sc">Special Cards</li>
+							<li class="menu-item" type="cc" id="menu_cc">Christian Cards</li>
+							<li class="menu-item" type="mc" id="menu_mc">Muslim Cards</li>
+							<li class="menu-item" type="pc" id="menu_pc">Personal Cards</li>
+							<li class="menu-item" type="ca" id="menu_ca">Calendar</li>
+							<li class="menu-item" type="dy" id="menu_dy">Diary</li>
+							<li class="menu-item" >Gifts</li>
+
+                        </ul>
+                    </div>
+                    <div class="offer-section">
+
+                        <div class="right-offers">
+
+
+                            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                <!-- Indicators -->
+                                <ol class="carousel-indicators">
+                                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                                </ol>
+
+                                <!-- Wrapper for slides -->
+                                <div class="carousel-inner" role="listbox">
+                                    <div class="item active">
+                                        <img src="images/carousel.JPG" alt="Chania">
+                                    </div>
+
+                                    <div class="item">
+                                        <img src="images/carousel.JPG" alt="Chania">
+                                    </div>
+
+                                    <div class="item">
+                                        <img src="images/carousel.JPG" alt="Flower">
+                                    </div>
+
+                                    <div class="item">
+                                        <img src="images/carousel.JPG" alt="Flower">
+                                    </div>
+                                </div>
+
+                                <!-- Left and right controls -->
+                                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="card-collection-main-container">
+                    <div class="card-collection-container-one">
+                        <div class="card-collection-header collection-header-one"><span>Special Cards Collection</span></div>
+                        <div class="card-collection-container"  id="sc">
+                        
+                            <!-- <div class="card-item"  ng-repeat="item in cardsList">
+                                <div class="card-image"><img ng-src="{{item.imgUrl}}" /></div>
+								<div class="card-detail">
+                                <div class="card-name" ng-bind="item.name"></div>
+                                <div class="card-collection-details-container">  
+                                    <div class="card-price"  ng-bind="item.price"></div>
+                                    <div class="card-details-container">
+                                        <span class='card-details'>
+                                            <span class="details-icon"></span>
+                                            <span class="details-text">DETAILS</span>
+                                        </span>
+                                    </div>
+                                </div>
+								</div>
+                                <div ng-if="item.isNew" class="new-ribbon"></div>
+                            </div> -->
+                            
+                                                    
+                            <!-- <div class="card-item"  >
+                                <div class="card-image" style="background-image:url(images/item.JPG)"></div>
+                                <div class="card-detail">
+                                <div class="card-name" >Card Name</div>
+                                <div class="card-collection-details-container">  
+                                    <div class="card-price">$ 150</div>
+                                    <div class="card-details-container">
+                                        <span class='card-details'>
+                                            <span class="details-icon"></span>
+                                            <span class="details-text">DETAILS</span>
+                                        </span>
+                                    </div>
+                                </div>
+                                </div>
+                                <div ng-if="item.isNew" class="new-ribbon"></div>
+                            </div>
+                            
+                            <div class="card-item"  >
+                                <div class="card-image" style="background-image:url(images/item.JPG)"></div>
+                                <div class="card-detail">
+                                <div class="card-name" >Card Name</div>
+                                <div class="card-collection-details-container">  
+                                    <div class="card-price">$ 150</div>
+                                    <div class="card-details-container">
+                                        <span class='card-details'>
+                                            <span class="details-icon"></span>
+                                            <span class="details-text">DETAILS</span>
+                                        </span>
+                                    </div>
+                                </div>
+                                </div>
+                                <div ng-if="item.isNew" class="new-ribbon"></div>
+                            </div>
+                                                        
+                            <div class="card-item"  >
+                                <div class="card-image" style="background-image:url(images/item.JPG)"></div>
+                                <div class="card-detail">
+                                <div class="card-name" >Card Name</div>
+                                <div class="card-collection-details-container">  
+                                    <div class="card-price">$ 150</div>
+                                    <div class="card-details-container">
+                                        <span class='card-details'>
+                                            <span class="details-icon"></span>
+                                            <span class="details-text">DETAILS</span>
+                                        </span>
+                                    </div>
+                                </div>
+                                </div>
+                                <div ng-if="item.isNew" class="new-ribbon"></div>
+                            </div>
+                            
+                            <div class="card-item"  >
+                                <div class="card-image" style="background-image:url(images/item.JPG)"></div>
+                                <div class="card-detail">
+                                <div class="card-name" >Card Name</div>
+                                <div class="card-collection-details-container">  
+                                    <div class="card-price">$ 150</div>
+                                    <div class="card-details-container">
+                                        <span class='card-details'>
+                                            <span class="details-icon"></span>
+                                            <span class="details-text">DETAILS</span>
+                                        </span>
+                                    </div>
+                                </div>
+                                </div>
+                                <div ng-if="item.isNew" class="new-ribbon"></div>
+                            </div>
+                             -->
+                            
+                            
+                        </div>
+                    </div>
+                    <div class="card-collection-container-two">
+                        <div class="card-collection-header collection-header-two"><span>New Wedding Collections</span></div>
+                        <div class="collections-coantainer">
+                            <div class="left-collection">
+
+                            </div>
+                            <div class="right-collection">
+                                <div class="collection-top-section">
+                                    <div class='collection-left-item'></div>
+                                    <div class='collection-right-item'></div>
+                                </div>
+                                <div class="collection-bottom-section">
+                                    <div class='collection-left-item'></div>
+                                    <div class='collection-right-item'></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='offer-options'>
+                            <div class='offer-item'>
+                                <span class='offer-description green-fc'>UPTO RS.25 STORE</span>
+                                <span class='shop-button'><button class='show-now green-bg'>SHOP NOW</button></span>
+                            </div>
+                            <div class='offer-item'>
+                                <span class='offer-description red-fc'>RS.26 TO 50 STORE</span>
+                                <span class='shop-button'><button class='red-bg show-now'>SHOP NOW</button></span>
+                            </div>
+                            <div class='offer-item'>
+                                <span class='offer-description orange-fc'>RS.51 TO 100 STORE</span>
+                                <span class='shop-button'><button class='show-now orange-bg'>SHOP NOW</button></span>
+                            </div> <div class='offer-item no-margin'>
+                                <span class='offer-description blue-fc'>RS.100+ STORE</span>
+                                <span class='shop-button'><button class='blue-bg show-now'>SHOP NOW</button></span>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="card-collection-container-three">
+                        <div class="card-collection-header collection-header-three"><span>Personal Wedding Collections</span></div>
+                        <div class="card-collection-container" id="pc">
+                        
+                            <!-- <div class="card-item"  ng-repeat="item in cardsList">
+                                <div class="card-image"><img ng-src="{{item.imgUrl}}" /></div>
+								<div class="card-detail">
+                                <div class="card-name" ng-bind="item.name"></div>
+                                <div class="card-collection-details-container">  
+                                    <div class="card-price"  ng-bind="item.price"></div>
+                                    <div class="card-details-container">
+                                        <span class='card-details'>
+                                            <span class="details-icon"></span>
+                                            <span class="details-text">DETAILS</span>
+                                        </span>
+                                    </div>
+                                </div>
+								</div>
+                                <div ng-if="item.isNew" class="new-ribbon"></div>
+                            </div> -->
+                            
+                                                    
+                            <!-- <div class="card-item"  >
+                                <div class="card-image" style="background-image:url(images/item.JPG)"></div>
+                                <div class="card-detail">
+                                <div class="card-name" >Card Name</div>
+                                <div class="card-collection-details-container">  
+                                    <div class="card-price">$ 150</div>
+                                    <div class="card-details-container">
+                                        <span class='card-details'>
+                                            <span class="details-icon"></span>
+                                            <span class="details-text">DETAILS</span>
+                                        </span>
+                                    </div>
+                                </div>
+                                </div>
+                                <div ng-if="item.isNew" class="new-ribbon"></div>
+                            </div>
+                            
+                            <div class="card-item"  >
+                                <div class="card-image" style="background-image:url(images/item.JPG)"></div>
+                                <div class="card-detail">
+                                <div class="card-name" >Card Name</div>
+                                <div class="card-collection-details-container">  
+                                    <div class="card-price">$ 150</div>
+                                    <div class="card-details-container">
+                                        <span class='card-details'>
+                                            <span class="details-icon"></span>
+                                            <span class="details-text">DETAILS</span>
+                                        </span>
+                                    </div>
+                                </div>
+                                </div>
+                                <div ng-if="item.isNew" class="new-ribbon"></div>
+                            </div>
+                                                        
+                            <div class="card-item"  >
+                                <div class="card-image" style="background-image:url(images/item.JPG)"></div>
+                                <div class="card-detail">
+                                <div class="card-name" >Card Name</div>
+                                <div class="card-collection-details-container">  
+                                    <div class="card-price">$ 150</div>
+                                    <div class="card-details-container">
+                                        <span class='card-details'>
+                                            <span class="details-icon"></span>
+                                            <span class="details-text">DETAILS</span>
+                                        </span>
+                                    </div>
+                                </div>
+                                </div>
+                                <div ng-if="item.isNew" class="new-ribbon"></div>
+                            </div>
+                            
+                            <div class="card-item"  >
+                                <div class="card-image" style="background-image:url(images/item.JPG)"></div>
+                                <div class="card-detail">
+                                <div class="card-name" >Card Name</div>
+                                <div class="card-collection-details-container">  
+                                    <div class="card-price">$ 150</div>
+                                    <div class="card-details-container">
+                                        <span class='card-details'>
+                                            <span class="details-icon"></span>
+                                            <span class="details-text">DETAILS</span>
+                                        </span>
+                                    </div>
+                                </div>
+                                </div>
+                                <div ng-if="item.isNew" class="new-ribbon"></div>
+                            </div>
+ -->                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="shop-save-container">
+                    <div class='shop-save'></div>
+                    <div class='free-shipping'></div>
+                </div>
+                <div class="customer-feedback-outer-container">
+                    <div class="customer-feedback-container">
+                        <div class="customer-feedback-subcontainer">
+                            <div class="our-customer-img"></div>
+                            <div class="customer-one">
+                                <div class="rating-container">
+                                    <span class='ratingstar' ng-if='customerFeedbackOne.rating >= 1'></span>
+                                    <span class='ratingstar' ng-if='customerFeedbackOne.rating >= 2'></span>
+                                    <span class='ratingstar'  ng-if='customerFeedbackOne.rating >= 3'></span>
+                                    <span class='ratingstar' ng-if='customerFeedbackOne.rating >= 4'></span>
+                                    <span class='ratingstar' ng-if='customerFeedbackOne.rating >= 5'></span>
+                                </div>
+                                <div class="customer-feedback-heading" ng-bind="customerFeedbackOne.heading">
+                                'Great service and quality! Thanks'
+                                </div>
+                                <div class="customer-feedback-content" ng-bind="customerFeedbackOne.content">
+                                	It was great experience working with Rajesh! Prompt service, great quality and service from Rajesh and everyone there was nothing but the best! Thanks
+                                </div>
+                                <div class="customer-name-container">
+                                    <span class="customer-name" ng-bind="customerFeedbackOne.customerName"></span>
+                                    <span class="customer-date" ng-bind="customerFeedbackOne.customerDate"></span>
+                                </div>
+                            </div>
+                            <div class="customer-two">
+                                <div class="rating-container">
+                                    <span class='ratingstar' ng-if='customerFeedbackTwo.rating >= 1'></span>
+                                    <span class='ratingstar' ng-if='customerFeedbackTwo.rating >= 2'></span>
+                                    <span class='ratingstar'  ng-if='customerFeedbackTwo.rating >= 3'></span>
+                                    <span class='ratingstar' ng-if='customerFeedbackTwo.rating >= 4'></span>
+                                    <span class='ratingstar' ng-if='customerFeedbackTwo.rating >= 5'></span>
+                                </div>
+                                <div class="customer-feedback-heading" ng-bind="customerFeedbackTwo.heading">
+                                	'Beautiful Wedding Cards'
+                                </div>
+                                <div class="customer-feedback-content" ng-bind="customerFeedbackTwo.content">
+                                	I ordered custom wedding cards anf the result was beadutiful! Thank you!
+                                </div>
+                                <div class="customer-name-container">
+                                    <span class="customer-name" ng-bind="customerFeedbackTwo.customerName"></span>
+                                    <span class="customer-date" ng-bind="customerFeedbackTwo.customerDate"></span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="footer">
+                <div class='footer-top-area'></div>
+                <div class='contact-us-container clearfix'>
+                    <!--                    <div class='follow-us'>
+                                            <span class='follow-us-label'>Follow us on: </span>
+                                            <span class='icon fb-icon'></span>
+                                            <span class='icon twitter-icon'></span>
+                                            <span class='icon p-icon'></span>
+                                            <span class='icon gplus-icon'></span>
+                                            <span class='icon ytb-icon'></span>
+                                            <span class='icon w-icon'></span>
+                                        </div>-->
+                    <div class='contact-container'>
+                        <span class="information-headers">CONTACT US</span>
+                        <div class='contact-types'>
+                            <div class='icon telephone'></div>
+                            <div class='icon-value telephone-number'>+91 81229 30786</div>
+                        </div>
+                        <div class='contact-types'>
+                            <div class='icon email'></div>
+                            <div class='icon-value emailid'>sales@supremecards.in</div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="information-container">
+                    <div class="information-sub-container">
+                        <div class="information-item-rows">
+                            <span class="information-headers">INFORMATION</span>
+                            <ul class="list-ul">
+                                <li class="information-item">About Us</li>
+                                <li class="information-item">Customer Service</li>
+                                <li class="information-item">Privacy Policy</li>
+                                <li class="information-item">Site Map</li>
+                                <li class="information-item">Search Terms</li>
+                                <li class="information-item">Orders and Returns</li>
+                                <li class="information-item">Contact Us</li>
+                            </ul>
+                        </div>
+
+                        <div class="information-item-rows">
+                            <span class="information-headers">WHY BUY FROM US</span>
+                            <ul class="list-ul">
+                                <li class="information-item">Shipping & Returns</li>
+                                <li class="information-item">Secure Shopping</li>
+                                <li class="information-item">International Shopping</li>
+                                <li class="information-item">Affiliates</li>
+                                <li class="information-item">Group Sales</li>
+                            </ul>
+                        </div>
+
+                        <div class="information-item-rows">
+                            <span class="information-headers">MY ACCOUNT</span>
+                            <ul class="list-ul">
+                                <li class="information-item">Sign In</li>
+                                <li class="information-item">View Cart</li>
+                                <li class="information-item">My Wishlist</li>
+                                <li class="information-item">Track My Order</li>
+                                <li class="information-item">Help</li>
+                            </ul>
+                        </div>
+
+                        <div class="information-item-rows no-border">
+                            <span class='information-headers'>FOLLOW US</span>
+                            <div class='follow-us'>                                
+                                <span class='icon fb-icon'></span>
+                                <span class='icon twitter-icon'></span>
+                                <span class='icon p-icon'></span>
+                                <span class='icon gplus-icon'></span>
+                                <span class='icon ytb-icon'></span>
+                                <span class='icon w-icon'></span>
+                            </div>
+
+                            <span class="information-headers">NEWSLETTER</span>
+                            <ul class="list-ul">
+                                <!--<li class="information-item-block">subscribe >> </li>-->
+                                <input class="information-item-block" placeholder="subscribe >>" type="text"/>
+
+                            </ul>
+                        </div>
+                    </div>                        
+                </div>
+
+                <div class="accepted-banks-container">
+                    <div class="accepted-banks-subcontainer">
+                        <div class="accepted-label">
+                            <div class="information-headers">PAYMENTS & SHIPPING</div>
+                        </div>
+                        <div class="payment-list-main-container">
+                            <div class="list-container"> 
+                                <div class="accepted-item icici-logo"></div>
+                                <div class="accepted-item mastercard-logo"></div>
+                                <div class="accepted-item visa-logo"></div>
+                                <div class="accepted-item americanexp-logo"></div>
+
+                            </div>
+                            <div class="list-container"> 
+                                <div class="accepted-item paypal-logo"></div>
+                                <div class="accepted-item dhl-logo"></div>
+                                <div class="accepted-item ups-logo"></div>
+                                <div class="accepted-item ff-logo"></div>
+                                <div class="accepted-item fedex-logo"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class='footer-top-area'>
+                    <span class="copyrights-label">
+                        &copy; Copyright 2017. A Jaiho Business Solutions Creations. All Rights Reserved.
+                    </span>
+                    <span class="creation-name">
+                        Jaiho Business Solutions Creation
+                    </span>
+                </div>
+            </div>
+        </div>
+        <!-- <script type="text/javascript" src="lib/bootstrap-3.3.6-dist/js/bootstrap.min.js"></script> -->
+         <script type="text/javascript">
+               require(['config'],function(){
+                     require(['jquery','home','header','bootstrap'],function($,$home,$header){
+                    	   $header();
+                           $home();
+                     });
+                  });
+    </script>
+        
+    </body>
+
+</html>

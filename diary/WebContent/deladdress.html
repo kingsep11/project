@@ -1,0 +1,131 @@
+<!--register-starts-->
+	<div class="register">
+		<div class="container">
+			<div class="register-top heading">
+				<h2>DELIVERY DETAILS</h2>
+			</div>
+			<div class="register-main">
+				<div class="col-md-6 account-left">
+					<input placeholder="Customer name" id="custname" type="text" tabindex="1" required>
+						<input placeholder="Email address" id="custmail" type="text" tabindex="3" required>
+						<input placeholder="Mobile" id="custmob" type="text" tabindex="3" required>
+						<!-- <ul>
+							<li><label class="radio left"><input type="radio" name="radio" checked=""><i></i>Male</label></li>
+							<li><label class="radio"><input type="radio" name="radio"><i></i>Female</label></li>
+							<div class="clearfix"></div>
+						</ul> -->
+				</div>
+				<div class="col-md-6 account-left">
+					<input placeholder="Delivery address" id="deladdress" type="text" tabindex="2" required>
+					<input placeholder="Delivery City" id="city" type="text" tabindex="4" required>
+					<input placeholder="Delivery State" id="state" type="text" tabindex="4" required>
+					<input placeholder="Country" id="country" type="text" tabindex="4" required>
+					<input placeholder="Postal code" type="text" tabindex="4" required>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="address submit">
+							<input type="button" id="paymentbtn" value="PROCEED TO PAYMENT">
+						</div>
+		</div>
+	</div>
+	
+	
+						<form method="post" name="customerData" id="frmcart" action="paymentcontroller" style="display: none;">
+								<table width="40%" height="100" border='1' align="center">
+									<tr>
+										<td>Parameter Name:</td>
+										<td>Parameter Value:</td>
+									</tr>
+									<tr>
+										<td colspan="2">Compulsory information</td>
+									</tr>
+									<tr>
+										<td>TID :</td>
+										<td><input type="text" name="tid" id="tid" readonly /></td>
+									</tr>
+									<tr>
+										<td>Merchant Id</td>
+										<td><input type="text" name="merchant_id"	id="merchant_id" value="113938" /></td>
+									</tr>
+									<tr>
+										<td>Order Id</td>
+										<td><input type="text" name="order_id" id="order_id" value="" /></td>
+									</tr>
+									<tr>
+										<td>Currency</td>
+										<td><input type="text" name="currency" value="INR" /></td>
+									</tr>
+									<tr>
+										<td>Amount</td>
+										<td><input type="text" name="amount" id="calamt" value="" /></td>
+									</tr>
+									<tr>
+										<td>Redirect URL</td>
+										<td><input type="text" name="redirect_url"
+											value="http://localhost:9080/diary/PaymentConfirmController" />
+										</td>
+									</tr>
+									<tr>
+										<td>Cancel URL</td>
+										<td><input type="text" name="cancel_url"
+											value="http://localhost:9080/diary/PaymentConfirmController" />
+										</td>
+									</tr>
+									<tr>
+										<td>Language</td>
+										<td><input type="text" name="language" id="language"
+											value="EN" /></td>
+									</tr>
+									<tr>
+										<td>Delivery Name</td>
+										<td><input type="text" name="delivery_name" id="delivery_name" value="" /></td>
+									</tr>
+									<tr>
+										<td>Delivery email</td>
+										<td><input type="text" name="billing_email" id="billing_email" value="" /></td>
+									</tr>
+									<tr>
+										<td>Delivery Contact</td>
+										<td><input type="text" name="delivery_tel" id="delivery_tel" value="" /></td>
+									</tr>
+									<tr>
+										<td>Delivery Address</td>
+										<td><input type="text" name="delivery_address" id="delivery_address" value="" /></td>
+									</tr>
+									
+									<tr>
+										<td>Delivery City</td>
+										<td><input type="text" name="delivery_city" id="delivery_city" value="" /></td>
+									</tr>
+									
+									<tr>
+										<td>Delivery State</td>
+										<td><input type="text" name="delivery_state" id="delivery_state" value="" /></td>
+									</tr>
+
+									<tr>
+										<td>Delivery Zip</td>
+										<td><input type="text" name="delivery_zip" id="delivery_zip" value="" /></td>
+									</tr>
+
+									<tr>
+										<td>Merchant Param1</td>
+										<td><input type="text" name="merchant_param1" id="merchant_param1" value="" /></td>
+									</tr>
+									<tr>
+										<td>Merchant Param2</td>
+										<td><input type="text" name="merchant_param2" id="merchant_param2" value="" /></td>
+									</tr>
+								</table>
+							</form>
+	
+	<!--register-end-->
+	
+	<script type="text/javascript">
+               require(['config'],function(){
+                     require(['jquery','delivery'],function($,$delivery){
+                           $delivery();
+                     });
+                  });
+    </script>

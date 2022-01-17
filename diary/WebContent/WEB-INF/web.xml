@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>diary</display-name>
+  <welcome-file-list>
+    <welcome-file>home.html</welcome-file>
+  </welcome-file-list>
+  
+  <listener>
+    <listener-class>
+            org.jboss.resteasy.plugins.server.servlet.ResteasyBootstrap
+    </listener-class>
+    </listener>
+ 
+   <listener>
+		<listener-class>
+	    	org.springframework.web.context.ContextLoaderListener
+	    </listener-class>
+	</listener>
+
+	<context-param>
+		<param-name>resteasy.servlet.mapping.prefix</param-name>
+		<param-value>/rest</param-value>
+	</context-param>
+	
+    <servlet>
+    <servlet-name>webservice-servlet</servlet-name>
+    <servlet-class>org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+    <servlet-name>webservice-servlet</servlet-name>
+    <url-pattern>/rest/*</url-pattern>
+    </servlet-mapping>
+ 
+    <context-param>
+    <param-name>resteasy.scan</param-name>
+    <param-value>true</param-value>
+    </context-param>
+    
+    <servlet>
+    <servlet-name>webserviceInvokeservlet</servlet-name>
+    <servlet-class>com.diary.controller.WebserviceInvokeServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+    <servlet-name>webserviceInvokeservlet</servlet-name>
+    <url-pattern>/webserviceInvokeservlet</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+    <servlet-name>paymentcontroller</servlet-name>
+    <servlet-class>com.diary.controller.PaymentController</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+    <servlet-name>paymentcontroller</servlet-name>
+    <url-pattern>/paymentcontroller</url-pattern>
+    </servlet-mapping>
+  
+</web-app>
